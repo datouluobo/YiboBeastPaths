@@ -35,8 +35,31 @@ end
 
 function YBP:ToggleRoutes()
     self.db.visible = not self.db.visible
+    self:RefreshWorldMapButton()
     self:RefreshMapLayer()
-    print(string.format("|cff4fd8ff[YiboBeastPaths]|r 世界地图路线显示已%s。", self.db.visible and "开启" or "关闭"))
+end
+
+function YBP:RefreshWorldMapButton()
+    local button = self.mapButton
+    if not button then
+        return
+    end
+
+    local enabled = self.db and self.db.visible
+    local label = enabled and "宠物路线: 开" or "宠物路线: 关"
+    if button.SetText then
+        button:SetText(label)
+    end
+
+    local text = button.label or button:GetFontString()
+    if text and text.SetText then
+        text:SetText(label)
+        if enabled then
+            text:SetTextColor(1.00, 0.84, 0.10)
+        else
+            text:SetTextColor(0.82, 0.82, 0.82)
+        end
+    end
 end
 
 function YBP:CreateWorldMapButton()
@@ -45,12 +68,31 @@ function YBP:CreateWorldMapButton()
     end
 
     local button = CreateFrame("Button", nil, WorldMapFrame, "UIPanelButtonTemplate")
-    button:SetSize(96, 24)
+    button:SetSize(132, 28)
     button:SetFrameStrata("DIALOG")
     button:SetFrameLevel((WorldMapFrame:GetFrameLevel() or 1) + 20)
     button:ClearAllPoints()
-    button:SetPoint("BOTTOMLEFT", WorldMapFrame, "BOTTOMLEFT", 18, 14)
-    button:SetText("宠物路线")
+    button:SetPoint("BOTTOMLEFT", WorldMapFrame, "BOTTOMLEFT", 16, 42)
+    if button.Left then
+        button.Left:SetAlpha(0.95)
+    end
+    if button.Middle then
+        button.Middle:SetAlpha(0.95)
+    end
+    if button.Right then
+        button.Right:SetAlpha(0.95)
+    end
+    local text = button:GetFontString()
+    if text and text.SetFontObject then
+        text:SetFontObject("GameFontHighlightSmall")
+        text:SetShadowOffset(1, -1)
+    else
+        button.label = button:CreateFontString(nil, "OVERLAY", "GameFontHighlightSmall")
+        button.label:SetPoint("CENTER", button, "CENTER", 0, 0)
+        button.label:SetShadowOffset(1, -1)
+        button.label:SetJustifyH("CENTER")
+        button.label:SetJustifyV("MIDDLE")
+    end
     button:Show()
     button:SetScript("OnClick", function(btn)
         YBP:ToggleRoutes()
@@ -59,17 +101,20 @@ function YBP:CreateWorldMapButton()
         GameTooltip:SetOwner(btn, "ANCHOR_RIGHT")
         GameTooltip:AddLine("|cff4fd8ffYiboBeastPaths|r")
         GameTooltip:AddLine("左键: 开关世界地图路线", 1, 1, 1)
+        GameTooltip:AddLine(YBP.db and YBP.db.visible and "当前状态: 已开启" or "当前状态: 已关闭", 1, 0.82, 0)
         GameTooltip:Show()
     end)
     button:SetScript("OnLeave", function()
         GameTooltip:Hide()
     end)
     self.mapButton = button
+    self:RefreshWorldMapButton()
 
     WorldMapFrame:HookScript("OnShow", function()
         if YBP.mapButton then
             YBP.mapButton:Show()
         end
+        YBP:RefreshWorldMapButton()
         YBP:RefreshMapLayer()
     end)
 
@@ -95,15 +140,15 @@ SlashCmdList.YIBOBEASTPATHS = function(msg)
 
     if msg == "show" then
         YBP.db.visible = true
+        YBP:RefreshWorldMapButton()
         YBP:RefreshMapLayer()
-        print("|cff4fd8ff[YiboBeastPaths]|r 世界地图路线显示已开启。")
         return
     end
 
     if msg == "hide" then
         YBP.db.visible = false
+        YBP:RefreshWorldMapButton()
         YBP:RefreshMapLayer()
-        print("|cff4fd8ff[YiboBeastPaths]|r 世界地图路线显示已关闭。")
         return
     end
 
