@@ -1,0 +1,237 @@
+[
+  {
+    "routeID": 50821,
+    "npcID": 50850,
+    "englishName": "Savage",
+    "verifiedChineseName": "萨维奇",
+    "alternateChineseNames": [
+      "野蛮"
+    ],
+    "repoName": "萨维奇",
+    "family": "Cat",
+    "appearance": "白虎/老虎",
+    "zoneZh": "翡翠林",
+    "zoneEn": "The Jade Forest",
+    "skinCount": 1,
+    "notes": "独特无瞳亮蓝眼白虎皮肤。",
+    "imageFiles": [
+      "ReferencePets/PandariaHiddenHunterPets/50850_savage.jpg"
+    ],
+    "sourceUrls": [
+      "https://www.wow-petopia.com/npc.php?id=50850",
+      "https://www.wowhead.com/cn/npc=50850"
+    ]
+  },
+  {
+    "routeID": 50822,
+    "npcID": 50859,
+    "englishName": "Glimmer",
+    "verifiedChineseName": "微光之蛾",
+    "alternateChineseNames": [
+      "星光",
+      "闪光"
+    ],
+    "repoName": "微光之蛾",
+    "family": "Water Strider",
+    "appearance": "水黾",
+    "zoneZh": "翡翠林",
+    "zoneEn": "The Jade Forest",
+    "skinCount": 1,
+    "notes": "你整理的“闪光”不是当前主流可检译名。",
+    "imageFiles": [
+      "ReferencePets/PandariaHiddenHunterPets/50859_glimmer.jpg"
+    ],
+    "sourceUrls": [
+      "https://www.wow-petopia.com/npc.php?id=50859",
+      "https://www.wowhead.com/cn/npc=50859"
+    ]
+  },
+  {
+    "routeID": 50817,
+    "npcID": 50854,
+    "englishName": "Bloodtooth",
+    "verifiedChineseName": "血牙",
+    "alternateChineseNames": [],
+    "repoName": "血牙",
+    "family": "Turtle",
+    "appearance": "龙龟/乌龟",
+    "zoneZh": "卡桑琅丛林",
+    "zoneEn": "Krasarang Wilds",
+    "skinCount": 1,
+    "notes": "红色带刺龙龟；Petopia 明确写明南部海岸潜行巡逻。",
+    "imageFiles": [
+      "ReferencePets/PandariaHiddenHunterPets/50854_bloodtooth.jpg"
+    ],
+    "sourceUrls": [
+      "https://www.wow-petopia.com/npc.php?id=50854",
+      "https://wow.17173.com/content/2012-08-04/20120804142336581_2.shtml"
+    ]
+  },
+  {
+    "routeID": 66522,
+    "npcID": 67820,
+    "englishName": "Bombyx",
+    "verifiedChineseName": "邦比克斯",
+    "alternateChineseNames": [
+      "邦比",
+      "桑蚕",
+      "蚕虫"
+    ],
+    "repoName": "邦比",
+    "family": "Worm",
+    "appearance": "蚕虫/毛毛虫",
+    "zoneZh": "卡桑琅河，卡桑琅丛林",
+    "zoneEn": "Krasarang River, Krasarang Wilds",
+    "skinCount": 1,
+    "notes": "中文名不稳定；“蚕虫”更像描述而非稳定译名。",
+    "imageFiles": [
+      "ReferencePets/PandariaHiddenHunterPets/67820_bombyx.jpg"
+    ],
+    "sourceUrls": [
+      "https://www.wow-petopia.com/npc.php?id=67820",
+      "https://www.wowhead.com/tw/npc=67820"
+    ]
+  },
+  {
+    "routeID": 50812,
+    "npcID": 50885,
+    "englishName": "Patrannache",
+    "verifiedChineseName": "帕特兰纳克",
+    "alternateChineseNames": [
+      "波澜若澈"
+    ],
+    "repoName": "帕特兰纳克",
+    "family": "Waterfowl",
+    "appearance": "鹤/鸟类",
+    "zoneZh": "四风谷",
+    "zoneEn": "Valley of the Four Winds",
+    "skinCount": 1,
+    "notes": "粉色鹤，巡逻路线很长。",
+    "imageFiles": [
+      "ReferencePets/PandariaHiddenHunterPets/50885_patrannache.jpg"
+    ],
+    "sourceUrls": [
+      "https://www.wow-petopia.com/npc.php?id=50885",
+      "https://www.wowhead.com/cn/npc=50885"
+    ]
+  },
+  {
+    "routeID": 50818,
+    "npcID": 50960,
+    "englishName": "Hexapos",
+    "verifiedChineseName": "赫克萨波斯",
+    "alternateChineseNames": [
+      "六爪"
+    ],
+    "repoName": "赫克萨波斯",
+    "family": "Water Strider",
+    "appearance": "水黾",
+    "zoneZh": "恐惧废土",
+    "zoneEn": "Dread Wastes",
+    "skinCount": 1,
+    "notes": "绿底白纹水黾；Petopia 标注为特殊追踪驯服。",
+    "imageFiles": [
+      "ReferencePets/PandariaHiddenHunterPets/50960_hexapos.jpg"
+    ],
+    "sourceUrls": [
+      "https://www.wow-petopia.com/npc.php?id=50960",
+      "https://www.wowhead.com/cn/npc=50960"
+    ]
+  },
+  {
+    "routeID": 50820,
+    "npcID": 51013,
+    "englishName": "Rockhide the Immovable",
+    "verifiedChineseName": "不可撼动的洛克海德",
+    "alternateChineseNames": [
+      "洛克海德",
+      "坚皮"
+    ],
+    "repoName": "洛克海德",
+    "family": "Basilisk",
+    "appearance": "蜥蜴/巴斯利斯克",
+    "zoneZh": "螳螂高原",
+    "zoneEn": "Townlong Steppes",
+    "skinCount": 1,
+    "notes": "石灰灰紫色晶背蜥蜴；“坚皮”不是当前可检主流译名。",
+    "imageFiles": [
+      "ReferencePets/PandariaHiddenHunterPets/51013_rockhide_the_immovable.jpg"
+    ],
+    "sourceUrls": [
+      "https://www.wow-petopia.com/npc.php?id=51013",
+      "https://www.wowhead.com/cn/npc=51013"
+    ]
+  },
+  {
+    "routeID": 50813,
+    "npcID": 50843,
+    "englishName": "Portent",
+    "verifiedChineseName": "噩兆",
+    "alternateChineseNames": [
+      "天兆",
+      "魁麟"
+    ],
+    "repoName": "噩兆",
+    "family": "Stone Hound",
+    "appearance": "魁麟/Quilen",
+    "zoneZh": "锦绣谷",
+    "zoneEn": "Vale of Eternal Blossoms",
+    "skinCount": 4,
+    "notes": "唯一会在刷新时随机抽取 4 种颜色的稀有。",
+    "imageFiles": [
+      "ReferencePets/PandariaHiddenHunterPets/50843_portent_jade.jpg",
+      "ReferencePets/PandariaHiddenHunterPets/50843_portent_amethyst.jpg",
+      "ReferencePets/PandariaHiddenHunterPets/50843_portent_cobalt.jpg",
+      "ReferencePets/PandariaHiddenHunterPets/50843_portent_jasper.jpg"
+    ],
+    "sourceUrls": [
+      "https://www.wow-petopia.com/npc.php?id=50843",
+      "https://www.wowhead.com/cn/npc=50843",
+      "https://wow.17173.com/moregame123/kl6_3.shtml"
+    ]
+  },
+  {
+    "routeID": 50816,
+    "npcID": 50944,
+    "englishName": "Bristlespine",
+    "verifiedChineseName": "刺脊",
+    "alternateChineseNames": [
+      "芒刺"
+    ],
+    "repoName": "刺脊",
+    "family": "Rodent",
+    "appearance": "豪猪/箭猪",
+    "zoneZh": "昆莱山",
+    "zoneEn": "Kun-Lai Summit",
+    "skinCount": 1,
+    "notes": "紫黑色豪猪；“芒刺”不是当前主流可检译名。",
+    "imageFiles": [
+      "ReferencePets/PandariaHiddenHunterPets/50944_bristlespine.jpg"
+    ],
+    "sourceUrls": [
+      "https://www.wow-petopia.com/npc.php?id=50944",
+      "https://www.wowhead.com/tw/npc=50944"
+    ]
+  },
+  {
+    "routeID": 50811,
+    "npcID": 50998,
+    "englishName": "Stompy",
+    "verifiedChineseName": "重蹄",
+    "alternateChineseNames": [],
+    "repoName": "重蹄",
+    "family": "Gruffhorn",
+    "appearance": "羊/山羊/牦牛羊系",
+    "zoneZh": "昆莱山",
+    "zoneEn": "Kun-Lai Summit",
+    "skinCount": 1,
+    "notes": "Petopia 家族名是 Gruffhorn；外观上是白灰色山羊模型。",
+    "imageFiles": [
+      "ReferencePets/PandariaHiddenHunterPets/50998_stompy.jpg"
+    ],
+    "sourceUrls": [
+      "https://www.wow-petopia.com/npc.php?id=50998",
+      "https://www.wowhead.com/cn/npc=50998"
+    ]
+  }
+]

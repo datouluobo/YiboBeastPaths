@@ -1,0 +1,22 @@
+## Interface: 50400
+## Title: |cff4fd8ff[天堂]|r YiboBeastPaths
+## Title-zhCN: |cff4fd8ff[天堂]|r YiboBeastPaths - 潘达利亚隐藏猎人宠物路线图
+## Notes: World map route overlays for Pandaria hidden hunter pets.
+## Notes-zhCN: 直接在世界地图显示潘达利亚隐藏猎人宠物路线图。
+## Author: 天堂暴风
+## Version: v1.0
+## SavedVariables: YiboBeastPathsDB
+
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+Libs\HereBeDragons\HereBeDragons-2.0.lua
+Libs\HereBeDragons\HereBeDragons-Pins-2.0.lua
+
+Data.lua
+CuratedRoutes.lua
+RouteOverlays.lua
+RouteNodes.lua
+MapCanvasBounds.lua
+RouteTransforms.lua
+Core.lua
+Renderer.lua
